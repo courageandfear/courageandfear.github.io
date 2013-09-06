@@ -1,0 +1,25 @@
+/* Black: #1e1e1e
+   White: #f6f6f6
+*/
+
+
+body {
+	background-color: #1e1e1e;
+	color: #f6f6f6;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main-banner {
+	text-align: center;
+}
+#main-banner h1 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 6em;
+	color: #f6f6f6;
+}
+
+#top-nav {
+	background-color: transparent;
+	border-radius: 0px;
+	border-bottom: 1px solid #f6f6f6;
+}

@@ -1,12 +1,13 @@
 /* Black: #1e1e1e
    White: #f6f6f6
+   Gray: #777777;
 */
 
 
 body {
 	background-color: #1e1e1e;
-	color: #f6f6f6;
-	font-family: 'Roboto', sans-serif;
+	color: #777777;
+	font-family: 'Karla', sans-serif;
 	font-weight: 100;
 }
 
@@ -23,4 +24,51 @@ body {
 	background-color: transparent;
 	border-radius: 0px;
 	border-bottom: 1px solid #f6f6f6;
+}
+
+#top-nav-list {
+	margin-left: 8%;
+}
+
+.dropdown-menu {
+	box-shadow: none;
+	border: none;
+	background-color: #1e1e1e;
+}
+
+.dropdown-menu li a {
+	color: #777777;
+}
+
+.dropdown-menu li a:hover {
+	color: #1e1e1e;
+	background-color: #f6f6f6;
+}
+
+.navbar-nav .open a:focus {
+	background-color: #1e1e1e;
+}
+
+.paragraph-large {
+	font-size: 1.25em;
+}
+
+#home-image{
+	display: block;
+	width: 600px;
+	height: 400px;
+	background-image: url("/images/DSC_0667.JPG");
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+
+.big-picture-shadow {
+	-moz-box-shadow: 0 0 20px 10px #1e1e1e;
+	-webkit-box-shadow: 0 0 20px 10px #1e1e1e;
+	box-shadow: 0 0 20px 10px #1e1e1e;
+	-moz-box-shadow: inset 0 0 20px 10px #1e1e1e;
+	-webkit-box-shadow: inset 0 0 20px 10px #1e1e1e;
+	box-shadow: inset 0 0 20px 20px #1e1e1e;
 }

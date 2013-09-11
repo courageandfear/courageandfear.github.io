@@ -59,6 +59,7 @@ body {
 	height: 400px;
 	background-image: url("/images/DSC_0667.JPG");
 	background-repeat: no-repeat;
+	background-size: 600px, 400px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2em;
